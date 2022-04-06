@@ -1,6 +1,6 @@
 # js-bookmarklet-login
 
-## ロリポップログイン
+## [ロリポップログイン](https://user.lolipop.jp/)
 ```
 javascript:$("input[name='account']").val("アカウント");$('#domain-id').val(ドメイン番号);$("input[name='passwd']").val("パスワード");jf_Login();void(0);
 ```
