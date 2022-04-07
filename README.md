@@ -13,3 +13,7 @@ javascript:$("input[name='account']").val("アカウント");$('#domain-id').val
 javascript:document.getElementsByTagName("input")[3].value="パスワード";document.getElementsByTagName("button")[1].click();void(0);
 ```
 
+## 選択した日本語文字列を Google 翻訳する
+```
+javascript:(function(){var b=((window.getSelection&&window.getSelection())||(document.getSelection&&document.getSelection())||(document.selection&&document.selection.createRange&&document.selection.createRange().text));if(b!=''){window.open('https://translate.google.co.jp/?hl=ja&tab=wT#ja/en/'+encodeURIComponent(b));}else{window.open('https://translate.google.co.jp/translate?sl=ja&tl=en&js=n&prev=_t&hl=ja&ie=UTF-8&u='+encodeURIComponent(location.href)+'&act=url');}})();
+```
