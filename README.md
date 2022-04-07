@@ -1,4 +1,4 @@
-# js-bookmarklet-login
+# js-bookmarklet-login 2022-04-07 時点
 
 ## [ロリポップログイン](https://user.lolipop.jp/)
 ```
