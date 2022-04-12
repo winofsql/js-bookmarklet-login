@@ -27,3 +27,9 @@ javascript:(function(){var b=((window.getSelection&&window.getSelection())||(doc
 ```
 javascript:var d=new Date();d=(new Date(d.getFullYear(),d.getMonth(),d.getDate(),00,00).getTime())/1000;window.location='https://tv.yahoo.co.jp/listings?a=40&d=%27+d;void(0);
 ```
+
+
+## ドメイン内検索
+```
+javascript:var wnd=document.createElement('iframe');wnd.setAttribute('id','if');wnd.frameBorder=0;document.body.appendChild(wnd);wnd.contentWindow.document.write('<script src=\'https://winofsql.jp/gds2.js\' charset=\'shift_jis\'></script>')
+```
